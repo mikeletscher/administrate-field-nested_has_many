@@ -19,6 +19,10 @@ module Administrate
         end
       end
 
+      def table_title
+        association_name
+      end
+
       def to_s
         data
       end
