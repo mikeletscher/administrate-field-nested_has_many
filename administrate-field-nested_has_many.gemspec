@@ -1,7 +1,5 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "administrate/field/nested_has_many"
-
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-nested_has_many"
   gem.version = "0.1.0"
